@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+// Colors
+$primary: #447099; /* posit blue */
+
+// Text and Links
+$body-color: #404041; /* posit gray */
+$headings-color: #404041; /* posit gray */
+$link-color: darken($primary, 10%);
+$link-hover-color: darken($link-color, 10%);
+$font-family-sans-serif: "Open Sans",   system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// Customize the navbar
+$navbar-bg: #ffffff;
+$navbar-fg: #888888;
+$navbar-hl: #000000;
+$navbar-brand: $body-color;
+$navbar-brand-hl: $navbar-brand;
+
+// Customize the sidebar
+$sidebar-bg: #ffffff;
+$sidebar-fg: #404041;
+
+// Customize the footer color
+$footer-fg: lighten(#404041, 30%);
+
+/* workbench variables */
+$pro-header: #EE6331; /* posit orange, contrast: 8.45 */
+$pro-header-border: darken($pro-header, 5%);
+
+/* callout variables */
+$callout-color-important: #9A4665; // posit burgundy
+$callout-color-warning: #EE6331; //posit orange
+$callout-color-tip: #72994E; // posit green
+$callout-color-note: $primary; // posit blue
+
+
+// source code block
+$code-block-bg: lighten(#419599, 55%); // posit teal - used sourcecode background
