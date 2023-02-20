@@ -1,0 +1,13 @@
+---
+title: "Datasets"
+---
+
+Many of the Posit Stepping stones will leverage packages/functions/workflows that require data. Data in the real world can complex, messy, and large. In order to keep the Stepping Stones as simple as possible, we selected data that is small, clean, and easily understood. Below is a list of datasets used on this website with a short description of each.
+
+::: callout-note
+## These datasets were puropsely selected/created to represent real data!
+:::
+
+## Covid Data
+
+Johns Hopkins University maintains a curated repository of Covid data including new infections and deaths.

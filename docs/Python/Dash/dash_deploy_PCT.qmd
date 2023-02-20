@@ -1,0 +1,31 @@
+---
+title: "Publishing Dash app to Posit Connect"
+execute: 
+  echo: true
+  eval: false
+---
+
+::: callout-note
+[Dash](https://plotly.com/dash/) is a productive Python framework for building web applications.
+:::
+
+This page will discuss how to create a new directory and virtual environment, and deploying a dash application using the Command Line Interface (CLI).
+
+# Create a new directory and initialize a virtual environment:
+
+```{bash}
+# Create a new blank directory call 'dash-dir'
+mkdir dash-dir
+
+# Navigate into the dash-dir directory
+cd dash-dir
+
+# Create a new virtual environment
+python -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+```
+
+
+

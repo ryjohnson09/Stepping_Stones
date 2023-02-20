@@ -4,5 +4,47 @@
   },
   "about.qmd": {
     "about.html": "8ecc42b6"
+  },
+  "docs/pins/pin-dataset-R.qmd": {
+    "pin-dataset-R.html": "2c857912"
+  },
+  "docs/pins/index.qmd": {
+    "index.html": "c00886a0"
+  },
+  "docs/pins/pin-dataset-Python.qmd": {
+    "pin-dataset-Python.html": "2a2c2b4a"
+  },
+  "docs/R.qmd": {
+    "R.html": "b3876253"
+  },
+  "docs/Python.qmd": {
+    "Python.html": "184f0a91"
+  },
+  "docs/Python/Python.qmd": {
+    "Python.html": "533d1c75"
+  },
+  "docs/R/R.qmd": {
+    "R.html": "c1671606"
+  },
+  "docs/Python/pins/pin-dataset-Python.qmd": {
+    "pin-dataset-Python.html": "770f073a"
+  },
+  "docs/R/pins/pin-dataset-R.qmd": {
+    "pin-dataset-R.html": "4c3b916e"
+  },
+  "docs/R/pins/index.qmd": {
+    "index.html": "b1b7e46c"
+  },
+  "docs/Datasets/Datasets.qmd": {
+    "Datasets.html": "b88d9071"
+  },
+  "docs/Python/Dash/dash_deploy_PCT.qmd": {
+    "dash_deploy_PCT.html": "3a355ff7"
+  },
+  "docs/R/reticulate/proj_settings.qmd": {
+    "proj_settings.html": "b9f6faf7"
+  },
+  "docs/R/reticulate/proj-settings.qmd": {
+    "proj-settings.html": "12827421"
   }
 }

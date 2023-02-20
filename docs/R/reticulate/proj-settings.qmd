@@ -1,0 +1,95 @@
+---
+title: "Reticulate: R Project Settings"
+subtitle: "Using Quarto"
+execute: 
+  eval: false
+---
+
+[![](/images/reticulate_hex.png){fig-align="center" width="199"}](https://rstudio.github.io/reticulate/)
+
+`Reticulate` is an open source R package that provides a python interface to your R session. This allows users to leverage the power of R **and Python** in a single workflow. Before you start using `reticulate`, it's important that you first configure your R project to accommodate Python code and packages. `reticulate` does provide some [built in functions](https://rstudio.github.io/reticulate/reference/virtualenv-tools.html) to help with this, but for this stepping stone, we'll do this manually with the help of **venv**.
+
+Similar to how you manage R environment and packages using R Projects and `renv`, we need to set up a similar environment for Python.
+
+## Step 1: Create an R Project
+
+An R project is your project's *home* directory. It's always a good idea to keep projects isolated from other projects to avoid conflicts. There are multiple ways to create R projects:
+
+-   `File –> New Project`
+-   Click the `Create a New Project` icon in the top left of the RStudio IDE.
+-   Select `New Project` from the dropdown menu in the top right corner of the RStudio IDE.
+-   Use the `create_project()` function from the `usethis` package
+
+## Step 2: Create a new Python virtual environment
+
+A virtual environment will ensure that any python packages you install remain isolated to this R project. To do this, we will use the **venv** python module:
+
+1.  In the RStudio terminal, and within the same R project home directory, create a virtual env: `python -m venv .venv`
+2.  Activate the virtual environment: `source .venv/bin/activate`
+3.  You should now see a `(.venv)` in the terminal prompt letting you know that you are inside the virtual environment.
+
+## Step 3: Point `reticulate` to your Python virtual environment
+
+1.  Make sure the `RETICULATE_PYTHON` variable is set to ".venv/bin/activate" in the project's `.Renviron` file.
+2.  Restart R.
+3.  Confirm that `reticulate` will now use Python from within your virtual environment by running: `Sys.getenv("RETICULATE_PYTHON")`. The output should read: `.venv/bin/python`.
+
+## Additional notes
+
+-   If your using Quarto + `reticulate`, then make sure to set the engine to use knitr in the yaml.
+
+## Example Quarto Doc using R + Python
+
+```{r}
+---
+title: "R + Python"
+author: "Ryan Johnson"
+format: html
+engine: knitr
+editor: visual
+---
+```
+
+```{r}
+library(reticulate)
+```
+
+Below is the code for a line plot using Python.
+
+```{python}
+#| label: python-plot
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Data for plotting
+t = np.arange(0.0, 2.0, 0.01)
+s = 1 + np.sin(2 * np.pi * t)
+
+fig, ax = plt.subplots()
+ax.plot(t, s)
+
+ax.set(xlabel='X', ylabel='Y',
+       title='A Plot using Python')
+ax.grid()
+
+plt.show()
+```
+
+Below is the code for a line plot in R, using the **same data as the python plot**.
+
+```{r}
+#| label: r-plot
+#| message: false
+
+library(ggplot2)
+library(dplyr)
+
+# Read python data into R using py$
+r_data <- tibble(X = py$t, Y = py$s)
+
+ggplot(data = r_data, aes(x = X, y = Y)) +
+  geom_line(color = "#398AD7", size = 2) +
+  theme_minimal() +
+  labs(title = "A Plot using R")
+```

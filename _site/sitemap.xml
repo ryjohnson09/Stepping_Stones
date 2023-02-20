@@ -2,10 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/index.html</loc>
-    <lastmod>2023-01-28T19:38:57.554Z</lastmod>
+    <lastmod>2023-02-20T16:51:09.903Z</lastmod>
   </url>
   <url>
     <loc>/about.html</loc>
     <lastmod>2023-01-28T19:38:56.728Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/pins/pin-dataset-R.html</loc>
+    <lastmod>2023-02-08T17:23:06.769Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/pins/index.html</loc>
+    <lastmod>2023-01-28T21:14:52.987Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/pins/pin-dataset-Python.html</loc>
+    <lastmod>2023-02-08T17:23:55.633Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R.html</loc>
+    <lastmod>2023-02-08T18:43:53.382Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/Python.html</loc>
+    <lastmod>2023-02-08T18:43:57.162Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/Python/Python.html</loc>
+    <lastmod>2023-02-20T15:25:20.949Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R/R.html</loc>
+    <lastmod>2023-02-20T16:51:21.218Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/Python/pins/pin-dataset-Python.html</loc>
+    <lastmod>2023-02-20T15:25:23.699Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R/pins/pin-dataset-R.html</loc>
+    <lastmod>2023-02-20T15:25:17.936Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R/pins/index.html</loc>
+    <lastmod>2023-02-09T12:28:03.033Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/Datasets/Datasets.html</loc>
+    <lastmod>2023-02-09T15:45:44.169Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/Python/Dash/dash_deploy_PCT.html</loc>
+    <lastmod>2023-02-09T21:56:58.386Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R/reticulate/proj_settings.html</loc>
+    <lastmod>2023-02-20T16:49:22.551Z</lastmod>
+  </url>
+  <url>
+    <loc>/docs/R/reticulate/proj-settings.html</loc>
+    <lastmod>2023-02-20T16:51:09.382Z</lastmod>
   </url>
 </urlset>

@@ -7,16 +7,62 @@ website:
   favicon: "images/posit-favicon.svg"
   open-graph: true
   page-navigation: false
+
   navbar:
     pinned: true
     logo: images/posit-logo-fullcolor-TM.png
     logo-alt: "Posit logo."
     collapse-below: lg
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Datasets"
+        href: docs/Datasets/Datasets.qmd
+      - text: "R"
+        href: docs/R/R.qmd
+      - text: "Python"
+        href: docs/Python/Python.qmd
 
+  sidebar:
+    - id: "Datasets"
+      title: "Datasets"
+      collapse-level: 1
+      style: "docked"
+      contents:
+        - text: "Datasets"
+          href: docs/Datasets/Datasets.qmd
+
+    - id: "R"
+      title: "R"
+      collapse-level: 1
+      contents:
+        - text: "R"
+          href: docs/R/R.qmd
+        - text: "---"
+        - section: "Pins"
+          contents:
+            - text: "Pin Dataset in R"
+              href: "docs/R/pins/pin-dataset-R.qmd"
+        - section: "Reticulate"
+          contents:
+            - text: "R Project Settings"
+              href: "docs/R/reticulate/proj-settings.qmd"
+
+    - id: "Python"
+      title: "Python"
+      collapse-level: 1
+      contents:
+        - text: "Python"
+          href: docs/Python/Python.qmd
+        - text: "---"
+        - section: "Pins"
+          contents:
+            - text: "Pin Dataset in Python"
+              href: "docs/Python/pins/pin-dataset-Python.qmd"
+        - section: "Dash"
+          contents:
+            - text: "Publish a Dash app to Posit Connect"
+              href: "docs/Python/Dash/dash_deploy_PCT.qmd"
 format:
   html:
     toc: true

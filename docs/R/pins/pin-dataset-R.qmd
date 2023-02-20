@@ -1,0 +1,11 @@
+---
+title: "Pin Dataset in R"
+execute: 
+  eval: false
+---
+
+```{r}
+library("pins")
+```
+
+And now create the pin!
