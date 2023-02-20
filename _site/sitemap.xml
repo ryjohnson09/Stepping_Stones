@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/index.html</loc>
-    <lastmod>2023-02-20T16:51:09.903Z</lastmod>
+    <lastmod>2023-02-20T17:54:00.694Z</lastmod>
   </url>
   <url>
     <loc>/about.html</loc>
@@ -30,19 +30,19 @@
   </url>
   <url>
     <loc>/docs/Python/Python.html</loc>
-    <lastmod>2023-02-20T15:25:20.949Z</lastmod>
+    <lastmod>2023-02-20T17:53:55.200Z</lastmod>
   </url>
   <url>
     <loc>/docs/R/R.html</loc>
-    <lastmod>2023-02-20T16:51:21.218Z</lastmod>
+    <lastmod>2023-02-20T17:54:00.049Z</lastmod>
   </url>
   <url>
     <loc>/docs/Python/pins/pin-dataset-Python.html</loc>
-    <lastmod>2023-02-20T15:25:23.699Z</lastmod>
+    <lastmod>2023-02-20T17:53:54.911Z</lastmod>
   </url>
   <url>
     <loc>/docs/R/pins/pin-dataset-R.html</loc>
-    <lastmod>2023-02-20T15:25:17.936Z</lastmod>
+    <lastmod>2023-02-20T17:53:57.036Z</lastmod>
   </url>
   <url>
     <loc>/docs/R/pins/index.html</loc>
@@ -50,11 +50,11 @@
   </url>
   <url>
     <loc>/docs/Datasets/Datasets.html</loc>
-    <lastmod>2023-02-09T15:45:44.169Z</lastmod>
+    <lastmod>2023-02-20T17:53:56.480Z</lastmod>
   </url>
   <url>
     <loc>/docs/Python/Dash/dash_deploy_PCT.html</loc>
-    <lastmod>2023-02-09T21:56:58.386Z</lastmod>
+    <lastmod>2023-02-20T17:53:56.161Z</lastmod>
   </url>
   <url>
     <loc>/docs/R/reticulate/proj_settings.html</loc>
@@ -62,6 +62,6 @@
   </url>
   <url>
     <loc>/docs/R/reticulate/proj-settings.html</loc>
-    <lastmod>2023-02-20T16:51:09.382Z</lastmod>
+    <lastmod>2023-02-20T17:53:59.762Z</lastmod>
   </url>
 </urlset>

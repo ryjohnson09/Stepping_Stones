@@ -185,8 +185,8 @@
     "objectID": "docs/R/reticulate/proj-settings.html#additional-notes",
     "href": "docs/R/reticulate/proj-settings.html#additional-notes",
     "title": "Reticulate: R Project Settings",
-    "section": "Additional notes:",
-    "text": "Additional notes:\n\nIf your using Quarto + reticulate, then make sure to set the engine to use knitr in the yaml."
+    "section": "Additional notes",
+    "text": "Additional notes\n\nIf your using Quarto + reticulate, then make sure to set the engine to use knitr in the yaml."
   },
   {
     "objectID": "docs/R/reticulate/proj-settings.html#example-quarto-doc-using-r-python",
