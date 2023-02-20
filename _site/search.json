@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Posit Stepping Stones",
-    "section": "",
-    "text": "Welcome to Posit Stepping Stones! See the navigation bar to the left to learn."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "docs/pins/pin-dataset-R.html",
-    "href": "docs/pins/pin-dataset-R.html",
-    "title": "Pin Dataset in R",
-    "section": "",
-    "text": "library(\"pins\")\n\nAnd now create the pin!"
-  },
-  {
-    "objectID": "docs/pins/index.html",
-    "href": "docs/pins/index.html",
-    "title": "Pins",
-    "section": "",
-    "text": "Everything you need to know about Pins!"
-  },
-  {
-    "objectID": "docs/pins/pin-dataset-Python.html",
-    "href": "docs/pins/pin-dataset-Python.html",
+    "objectID": "docs/Python/pins/pin-dataset-Python.html",
+    "href": "docs/Python/pins/pin-dataset-Python.html",
     "title": "Pin Dataset in Python",
     "section": "",
     "text": "Here is where you pin a dataset in Python"
-  },
-  {
-    "objectID": "docs/R.html",
-    "href": "docs/R.html",
-    "title": "R",
-    "section": "",
-    "text": "This is all R related Stepping Stones."
-  },
-  {
-    "objectID": "docs/Python.html",
-    "href": "docs/Python.html",
-    "title": "Python",
-    "section": "",
-    "text": "This is all Python related Stepping Stones."
   },
   {
     "objectID": "docs/Python/Python.html",
@@ -56,32 +14,11 @@
     "text": "This is all Python related Stepping Stones."
   },
   {
-    "objectID": "docs/R/R.html",
-    "href": "docs/R/R.html",
-    "title": "R",
+    "objectID": "docs/Python/Dash/dash_deploy_PCT.html",
+    "href": "docs/Python/Dash/dash_deploy_PCT.html",
+    "title": "Publishing Dash app to Posit Connect",
     "section": "",
-    "text": "This is all R related Stepping Stones."
-  },
-  {
-    "objectID": "docs/Python/pins/pin-dataset-Python.html",
-    "href": "docs/Python/pins/pin-dataset-Python.html",
-    "title": "Pin Dataset in Python",
-    "section": "",
-    "text": "Here is where you pin a dataset in Python"
-  },
-  {
-    "objectID": "docs/R/pins/pin-dataset-R.html",
-    "href": "docs/R/pins/pin-dataset-R.html",
-    "title": "Pin Dataset in R",
-    "section": "",
-    "text": "library(\"pins\")\n\nAnd now create the pin!"
-  },
-  {
-    "objectID": "docs/R/pins/index.html",
-    "href": "docs/R/pins/index.html",
-    "title": "Pins",
-    "section": "",
-    "text": "Everything you need to know about Pins!"
+    "text": "Note\n\n\n\nDash is a productive Python framework for building web applications.\n\n\nThis page will discuss how to create a new directory and virtual environment, and deploying a dash application using the Command Line Interface (CLI).\n\nCreate a new directory and initialize a virtual environment:\n# Create a new blank directory call 'dash-dir'\nmkdir dash-dir\n\n# Navigate into the dash-dir directory\ncd dash-dir\n\n# Create a new virtual environment\npython -m venv .venv\n\n# Activate the virtual environment\nsource .venv/bin/activate"
   },
   {
     "objectID": "docs/Datasets/Datasets.html",
@@ -98,60 +35,11 @@
     "text": "Covid Data\nJohns Hopkins University maintains a curated repository of Covid data including new infections and deaths."
   },
   {
-    "objectID": "docs/Python/Dash/dash_deploy_PCT.html",
-    "href": "docs/Python/Dash/dash_deploy_PCT.html",
-    "title": "Publishing Dash app to Posit Connect",
+    "objectID": "docs/R/pins/pin-dataset-R.html",
+    "href": "docs/R/pins/pin-dataset-R.html",
+    "title": "Pin Dataset in R",
     "section": "",
-    "text": "Note\n\n\n\nDash is a productive Python framework for building web applications.\n\n\nThis page will discuss how to create a new directory and virtual environment, and deploying a dash application using the Command Line Interface (CLI).\n\nCreate a new directory and initialize a virtual environment:\n# Create a new blank directory call 'dash-dir'\nmkdir dash-dir\n\n# Navigate into the dash-dir directory\ncd dash-dir\n\n# Create a new virtual environment\npython -m venv .venv\n\n# Activate the virtual environment\nsource .venv/bin/activate"
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html",
-    "href": "docs/R/reticulate/proj_settings.html",
-    "title": "Reticulate: R Project Settings",
-    "section": "",
-    "text": "Reticulate is an open source R package that provides a python interface to your R session. This allows users to leverage the power of R and Python in a single workflow. Before you start using reticulate, it’s important that you first configure your R project to accommodate Python code and packages. reticulate does provide some built in functions to help with this, but for this stepping stone, we’ll do this manually with the help of venv.\nSimilar to how you manage R environment and packages using R Projects and renv, we need to set up a similar environment for Python."
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#step-1-create-an-r-project",
-    "href": "docs/R/reticulate/proj_settings.html#step-1-create-an-r-project",
-    "title": "Reticulate: R Project Settings",
-    "section": "Step 1: Create an R Project",
-    "text": "Step 1: Create an R Project\nAn R project is your project’s home directory. It’s always a good idea to keep projects isolated from other projects to avoid conflicts. There are multiple ways to create R projects:\n\nFile –> New Project\nClick the Create a New Project icon in the top left of the RStudio IDE.\nSelect New Project from the dropdown menu in the top right corner of the RStudio IDE.\nUse the create_project() function from the usethis package"
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#step-2-create-a-new-python-virtual-environment",
-    "href": "docs/R/reticulate/proj_settings.html#step-2-create-a-new-python-virtual-environment",
-    "title": "Reticulate: R Project Settings",
-    "section": "Step 2: Create a new Python virtual environment",
-    "text": "Step 2: Create a new Python virtual environment\nA virtual environment will ensure that any python packages you install remain isolated to this R project. To do this, we will use the venv python module:\n\nIn the RStudio terminal, and within the same R project home directory, create a virtual env: python -m venv .venv\nActivate the virtual environment: source .venv/bin/activate\nYou should now see a (.venv) in the terminal prompt letting you know that you are inside the virtual environment."
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#step-3-point-reticulate-to-your-python-virtual-environment",
-    "href": "docs/R/reticulate/proj_settings.html#step-3-point-reticulate-to-your-python-virtual-environment",
-    "title": "Reticulate: R Project Settings",
-    "section": "Step 3: Point reticulate to your Python virtual environment",
-    "text": "Step 3: Point reticulate to your Python virtual environment\n\nMake sure the RETICULATE_PYTHON variable is set to “.venv/bin/activate” in the project’s .Renviron file.\nRestart R.\nConfirm that reticulate will now use Python from within your virtual environment by running: Sys.getenv(\"RETICULATE_PYTHON\"). The output should read: .venv/bin/python."
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#additional-notes",
-    "href": "docs/R/reticulate/proj_settings.html#additional-notes",
-    "title": "Reticulate: R Project Settings",
-    "section": "Additional notes:",
-    "text": "Additional notes:\n\nIf your using Quarto + reticulate, then make sure to set the engine to use knitr in the yaml."
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#example-quarto-script-using-r-python",
-    "href": "docs/R/reticulate/proj_settings.html#example-quarto-script-using-r-python",
-    "title": "Reticulate: R Project Settings",
-    "section": "Example Quarto Script using R + Python",
-    "text": "Example Quarto Script using R + Python\n\n---\ntitle: \"R + Python\"\nauthor: \"Ryan Johnson\"\nformat: html\nengine: knitr\neditor: visual\n---\n\nlibrary(reticulate)\n\nFor a demonstration of a line plot using Python, see @python-plot.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='X', ylabel='Y',\n       title='A Plot using Python')\nax.grid()\n\nplt.show()\n\nFor a demonstration of a line plot in R, using the same data as the python plot, see @r-plot\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\nr_data <- tibble(X = py$t, Y = py$s)\n\nggplot(data = r_data, aes(x = X, y = Y)) +\n  geom_line(color = \"#398AD7\", size = 2) +\n  theme_minimal() +\n  labs(title = \"A Plot using R\")"
-  },
-  {
-    "objectID": "docs/R/reticulate/proj_settings.html#example-quarto-doc-using-r-python",
-    "href": "docs/R/reticulate/proj_settings.html#example-quarto-doc-using-r-python",
-    "title": "Reticulate: R Project Settings",
-    "section": "Example Quarto Doc using R + Python",
-    "text": "Example Quarto Doc using R + Python\n\n---\ntitle: \"R + Python\"\nauthor: \"Ryan Johnson\"\nformat: html\nengine: knitr\neditor: visual\n---\n\n\nlibrary(reticulate)\n\nBelow is the code for a line plot using Python.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='X', ylabel='Y',\n       title='A Plot using Python')\nax.grid()\n\nplt.show()\n\nBelow is the code for a line plot in R, using the same data as the python plot.\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Read python data into R using py$\nr_data <- tibble(X = py$t, Y = py$s)\n\nggplot(data = r_data, aes(x = X, y = Y)) +\n  geom_line(color = \"#398AD7\", size = 2) +\n  theme_minimal() +\n  labs(title = \"A Plot using R\")"
+    "text": "library(\"pins\")\n\nAnd now create the pin!"
   },
   {
     "objectID": "docs/R/reticulate/proj-settings.html",
@@ -194,5 +82,19 @@
     "title": "Reticulate: R Project Settings",
     "section": "Example Quarto Doc using R + Python",
     "text": "Example Quarto Doc using R + Python\n\n---\ntitle: \"R + Python\"\nauthor: \"Ryan Johnson\"\nformat: html\nengine: knitr\neditor: visual\n---\n\n\nlibrary(reticulate)\n\nBelow is the code for a line plot using Python.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='X', ylabel='Y',\n       title='A Plot using Python')\nax.grid()\n\nplt.show()\n\nBelow is the code for a line plot in R, using the same data as the python plot.\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Read python data into R using py$\nr_data <- tibble(X = py$t, Y = py$s)\n\nggplot(data = r_data, aes(x = X, y = Y)) +\n  geom_line(color = \"#398AD7\", size = 2) +\n  theme_minimal() +\n  labs(title = \"A Plot using R\")"
+  },
+  {
+    "objectID": "docs/R/R.html",
+    "href": "docs/R/R.html",
+    "title": "R",
+    "section": "",
+    "text": "This is all R related Stepping Stones."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Posit Stepping Stones",
+    "section": "",
+    "text": "Welcome to Posit Stepping Stones! See the navigation bar to the left to learn."
   }
 ]

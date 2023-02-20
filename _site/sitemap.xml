@@ -1,67 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2023-02-20T17:54:00.694Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/pins/pin-dataset-Python.html</loc>
+    <lastmod>2023-02-20T17:56:24.472Z</lastmod>
   </url>
   <url>
-    <loc>/about.html</loc>
-    <lastmod>2023-01-28T19:38:56.728Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/Python.html</loc>
+    <lastmod>2023-02-20T17:56:24.842Z</lastmod>
   </url>
   <url>
-    <loc>/docs/pins/pin-dataset-R.html</loc>
-    <lastmod>2023-02-08T17:23:06.769Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/Dash/dash_deploy_PCT.html</loc>
+    <lastmod>2023-02-20T17:56:29.045Z</lastmod>
   </url>
   <url>
-    <loc>/docs/pins/index.html</loc>
-    <lastmod>2023-01-28T21:14:52.987Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Datasets/Datasets.html</loc>
+    <lastmod>2023-02-20T17:56:29.361Z</lastmod>
   </url>
   <url>
-    <loc>/docs/pins/pin-dataset-Python.html</loc>
-    <lastmod>2023-02-08T17:23:55.633Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/pins/pin-dataset-R.html</loc>
+    <lastmod>2023-02-20T17:56:31.018Z</lastmod>
   </url>
   <url>
-    <loc>/docs/R.html</loc>
-    <lastmod>2023-02-08T18:43:53.382Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/reticulate/proj-settings.html</loc>
+    <lastmod>2023-02-20T17:56:33.521Z</lastmod>
   </url>
   <url>
-    <loc>/docs/Python.html</loc>
-    <lastmod>2023-02-08T18:43:57.162Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/R.html</loc>
+    <lastmod>2023-02-20T17:56:33.804Z</lastmod>
   </url>
   <url>
-    <loc>/docs/Python/Python.html</loc>
-    <lastmod>2023-02-20T17:53:55.200Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/R.html</loc>
-    <lastmod>2023-02-20T17:54:00.049Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Python/pins/pin-dataset-Python.html</loc>
-    <lastmod>2023-02-20T17:53:54.911Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/pins/pin-dataset-R.html</loc>
-    <lastmod>2023-02-20T17:53:57.036Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/pins/index.html</loc>
-    <lastmod>2023-02-09T12:28:03.033Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Datasets/Datasets.html</loc>
-    <lastmod>2023-02-20T17:53:56.480Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Python/Dash/dash_deploy_PCT.html</loc>
-    <lastmod>2023-02-20T17:53:56.161Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/reticulate/proj_settings.html</loc>
-    <lastmod>2023-02-20T16:49:22.551Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/reticulate/proj-settings.html</loc>
-    <lastmod>2023-02-20T17:53:59.762Z</lastmod>
+    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/index.html</loc>
+    <lastmod>2023-02-20T17:56:34.103Z</lastmod>
   </url>
 </urlset>
