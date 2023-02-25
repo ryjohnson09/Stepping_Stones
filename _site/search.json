@@ -39,7 +39,7 @@
     "href": "docs/R/pins/pin-dataset-R.html",
     "title": "Pin Dataset in R",
     "section": "",
-    "text": "library(\"pins\")\n\nAnd now create the pin!"
+    "text": "library(\"pins\")\nAnd now create the pin!"
   },
   {
     "objectID": "docs/R/reticulate/proj-settings.html",
@@ -81,7 +81,7 @@
     "href": "docs/R/reticulate/proj-settings.html#example-quarto-doc-using-r-python",
     "title": "Reticulate: R Project Settings",
     "section": "Example Quarto Doc using R + Python",
-    "text": "Example Quarto Doc using R + Python\n\n---\ntitle: \"R + Python\"\nauthor: \"Ryan Johnson\"\nformat: html\nengine: knitr\neditor: visual\n---\n\n\nlibrary(reticulate)\n\nBelow is the code for a line plot using Python.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='X', ylabel='Y',\n       title='A Plot using Python')\nax.grid()\n\nplt.show()\n\nBelow is the code for a line plot in R, using the same data as the python plot.\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Read python data into R using py$\nr_data <- tibble(X = py$t, Y = py$s)\n\nggplot(data = r_data, aes(x = X, y = Y)) +\n  geom_line(color = \"#398AD7\", size = 2) +\n  theme_minimal() +\n  labs(title = \"A Plot using R\")"
+    "text": "Example Quarto Doc using R + Python\n---\ntitle: \"R + Python\"\nauthor: \"Ryan Johnson\"\nformat: html\nengine: knitr\neditor: visual\n---\nlibrary(reticulate)\nBelow is the code for a line plot using Python.\n#| label: python-plot\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='X', ylabel='Y',\n       title='A Plot using Python')\nax.grid()\n\nplt.show()\nBelow is the code for a line plot in R, using the same data as the python plot.\n#| label: r-plot\n#| message: false\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Read python data into R using py$\nr_data <- tibble(X = py$t, Y = py$s)\n\nggplot(data = r_data, aes(x = X, y = Y)) +\n  geom_line(color = \"#398AD7\", size = 2) +\n  theme_minimal() +\n  labs(title = \"A Plot using R\")"
   },
   {
     "objectID": "docs/R/R.html",

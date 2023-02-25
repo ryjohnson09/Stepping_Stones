@@ -13,7 +13,7 @@ This page will discuss how to create a new directory and virtual environment, an
 
 # Create a new directory and initialize a virtual environment:
 
-```{bash}
+```bash
 # Create a new blank directory call 'dash-dir'
 mkdir dash-dir
 
@@ -26,4 +26,3 @@ python -m venv .venv
 # Activate the virtual environment
 source .venv/bin/activate
 ```
-

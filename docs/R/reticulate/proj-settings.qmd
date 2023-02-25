@@ -40,7 +40,7 @@ A virtual environment will ensure that any python packages you install remain is
 
 ## Example Quarto Doc using R + Python
 
-```{r}
+``` r
 ---
 title: "R + Python"
 author: "Ryan Johnson"
@@ -50,13 +50,13 @@ editor: visual
 ---
 ```
 
-```{r}
+``` r
 library(reticulate)
 ```
 
 Below is the code for a line plot using Python.
 
-```{python}
+``` python
 #| label: python-plot
 
 import numpy as np
@@ -78,7 +78,7 @@ plt.show()
 
 Below is the code for a line plot in R, using the **same data as the python plot**.
 
-```{r}
+``` r
 #| label: r-plot
 #| message: false
 
