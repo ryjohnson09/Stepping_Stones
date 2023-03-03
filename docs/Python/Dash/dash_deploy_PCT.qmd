@@ -9,20 +9,16 @@ execute:
 [Dash](https://plotly.com/dash/) is a productive Python framework for building web applications.
 :::
 
-This page will discuss how to create a new directory and virtual environment, and deploying a dash application using the Command Line Interface (CLI).
+In the video below, we'll discuss how to:
 
-# Create a new directory and initialize a virtual environment:
+-   Access VS Code withing Posit Workbench
 
-``` bash
-# Create a new blank directory call 'dash-dir'
-mkdir dash-dir
+-   Create a new directory and initialize a virtual environment using `venv`
 
-# Navigate into the dash-dir directory
-cd dash-dir
+-   Pull in a Dash application from GitHub
 
-# Create a new virtual environment
-python -m venv .venv
+-   Deploy Dash application to Posit Connect using the `rsconnect-python` package.
 
-# Activate the virtual environment
-source .venv/bin/activate
-```
+You can find more instructions on deploying Dash applications on our [Posit Connect User Guide](https://docs.posit.co/connect/user/dash/).
+
+<div style="position: relative; padding-bottom: 67.79661016949152%; height: 0;"><iframe src="https://www.loom.com/embed/373b4117a0d343469cef2cd89422b3d3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

@@ -18,7 +18,7 @@
     "href": "docs/Python/Dash/dash_deploy_PCT.html",
     "title": "Publishing Dash app to Posit Connect",
     "section": "",
-    "text": "Note\n\n\n\nDash is a productive Python framework for building web applications.\n\n\nThis page will discuss how to create a new directory and virtual environment, and deploying a dash application using the Command Line Interface (CLI).\n\nCreate a new directory and initialize a virtual environment:\n# Create a new blank directory call 'dash-dir'\nmkdir dash-dir\n\n# Navigate into the dash-dir directory\ncd dash-dir\n\n# Create a new virtual environment\npython -m venv .venv\n\n# Activate the virtual environment\nsource .venv/bin/activate"
+    "text": "Note\n\n\n\nDash is a productive Python framework for building web applications.\n\n\nIn the video below, we’ll discuss how to:\n\nAccess VS Code withing Posit Workbench\nCreate a new directory and initialize a virtual environment using venv\nPull in a Dash application from GitHub\nDeploy Dash application to Posit Connect using the rsconnect-python package.\n\nYou can find more instructions on deploying Dash applications on our Posit Connect User Guide."
   },
   {
     "objectID": "docs/Datasets/Datasets.html",

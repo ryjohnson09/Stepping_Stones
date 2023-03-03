@@ -16,21 +16,21 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Datasets"
-        href: docs/Datasets/Datasets.qmd
+      # - text: "Datasets"
+      #   href: docs/Datasets/Datasets.qmd
       - text: "R"
         href: docs/R/R.qmd
       - text: "Python"
         href: docs/Python/Python.qmd
 
   sidebar:
-    - id: "Datasets"
-      title: "Datasets"
-      collapse-level: 1
-      style: "docked"
-      contents:
-        - text: "Datasets"
-          href: docs/Datasets/Datasets.qmd
+    # - id: "Datasets"
+    #   title: "Datasets"
+    #   collapse-level: 1
+    #   style: "docked"
+    #   contents:
+    #     - text: "Datasets"
+    #       href: docs/Datasets/Datasets.qmd
 
     - id: "R"
       title: "R"
@@ -39,10 +39,10 @@ website:
         - text: "R"
           href: docs/R/R.qmd
         - text: "---"
-        - section: "Pins"
-          contents:
-            - text: "Pin Dataset in R"
-              href: "docs/R/pins/pin-dataset-R.qmd"
+        # - section: "Pins"
+        #   contents:
+        #     - text: "Pin Dataset in R"
+        #       href: "docs/R/pins/pin-dataset-R.qmd"
         - section: "Reticulate"
           contents:
             - text: "R Project Settings"
@@ -55,10 +55,10 @@ website:
         - text: "Python"
           href: docs/Python/Python.qmd
         - text: "---"
-        - section: "Pins"
-          contents:
-            - text: "Pin Dataset in Python"
-              href: "docs/Python/pins/pin-dataset-Python.qmd"
+        # - section: "Pins"
+        #   contents:
+        #     - text: "Pin Dataset in Python"
+        #       href: "docs/Python/pins/pin-dataset-Python.qmd"
         - section: "Dash"
           contents:
             - text: "Publish a Dash app to Posit Connect"

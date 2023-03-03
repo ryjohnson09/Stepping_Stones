@@ -2,4 +2,4 @@
 title: "Posit Stepping Stones"
 ---
 
-Welcome to Posit Stepping Stones! See the navigation bar to the left to learn.
+Welcome to Posit Stepping Stones! See the navigation bar to the left to learn more!
