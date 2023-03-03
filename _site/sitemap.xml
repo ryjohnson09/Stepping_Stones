@@ -1,63 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/pins/pin-dataset-Python.html</loc>
-    <lastmod>2023-02-20T17:56:24.472Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/Python/pins/pin-dataset-Python.html</loc>
+    <lastmod>2023-03-03T14:07:02.555Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/Python.html</loc>
-    <lastmod>2023-02-20T17:56:24.842Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/Python/Python.html</loc>
+    <lastmod>2023-03-03T14:07:02.862Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Python/Dash/dash_deploy_PCT.html</loc>
-    <lastmod>2023-02-20T17:56:29.045Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/Python/Dash/dash_deploy_PCT.html</loc>
+    <lastmod>2023-03-03T14:07:03.206Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/Datasets/Datasets.html</loc>
-    <lastmod>2023-02-20T17:56:29.361Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/Datasets/Datasets.html</loc>
+    <lastmod>2023-03-03T14:07:03.522Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/pins/pin-dataset-R.html</loc>
-    <lastmod>2023-02-20T17:56:31.018Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/R/pins/pin-dataset-R.html</loc>
+    <lastmod>2023-03-03T14:07:04.074Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/reticulate/proj-settings.html</loc>
-    <lastmod>2023-02-20T17:56:33.521Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/R/reticulate/proj-settings.html</loc>
+    <lastmod>2023-03-03T14:07:04.596Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/docs/R/R.html</loc>
-    <lastmod>2023-02-20T17:56:33.804Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/docs/R/R.html</loc>
+    <lastmod>2023-03-03T14:07:04.891Z</lastmod>
   </url>
   <url>
-    <loc>https://149a0bf6-9621-4fec-bee0-ca3e67d4976b.netlify.app/index.html</loc>
-    <lastmod>2023-02-20T17:56:34.103Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Python/Dash/dash_deploy_PCT.html</loc>
-    <lastmod>2023-03-03T14:03:04.810Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/reticulate/proj-settings.html</loc>
-    <lastmod>2023-03-03T14:02:52.483Z</lastmod>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-    <lastmod>2023-03-03T14:02:44.062Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Datasets/Datasets.html</loc>
-    <lastmod>2023-03-03T14:01:04.846Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/pins/pin-dataset-R.html</loc>
-    <lastmod>2023-02-25T11:54:55.478Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/R/R.html</loc>
-    <lastmod>2023-03-03T14:02:48.346Z</lastmod>
-  </url>
-  <url>
-    <loc>/docs/Python/Python.html</loc>
-    <lastmod>2023-03-03T14:02:59.796Z</lastmod>
+    <loc>https://quartopub.com/sites/ryjohnson09/stepping-stones/index.html</loc>
+    <lastmod>2023-03-03T14:07:05.204Z</lastmod>
   </url>
 </urlset>
