@@ -39,10 +39,10 @@ website:
         - text: "R"
           href: docs/R/R.qmd
         - text: "---"
-        # - section: "Pins"
-        #   contents:
-        #     - text: "Pin Dataset in R"
-        #       href: "docs/R/pins/pin-dataset-R.qmd"
+        - section: "Pins"
+          contents:
+            - text: "Pin Object in R"
+              href: "docs/R/pins/pin-object-R.qmd"
         - section: "Reticulate"
           contents:
             - text: "R Project Settings"

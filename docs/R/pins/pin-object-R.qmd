@@ -1,0 +1,84 @@
+---
+title: "Pin R Object to Posit Connect"
+execute: 
+  eval: false
+---
+
+![](/images/pins_hex.png){fig-align="center" width="191"}
+
+In R, [`pins`](https://pins.rstudio.com/index.html) is an open source package that allows you to publish and share R objects (data, models, etc.) across projects and with your colleagues. The process of pinning an R object is similar to using a push-pin to pin a piece of paper to a cork board:
+
+-   **Piece of paper**: your R object
+
+-   **Cork board**: where you want to pin your object
+
+-   **Push-Pin**: the `pins` package
+
+In this example, we'll pin an R dataset to Posit Connect.
+
+::: {style="position: relative; padding-bottom: 67.79661016949152%; height: 0;"}
+<iframe src="https://www.loom.com/embed/51e79245e0f14750a35bd43e7a9d2742" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+</iframe>
+:::
+
+## Install and load the `pins` package
+
+```{r}
+# Install pins
+install.packages("pins")
+
+# Load pins
+library(pins)
+```
+
+## Set up Posit Connect as your *board*
+
+::: callout-note
+## Pins supports a variety of boards including Posit Connect, Amazon S3, Azure Storage, and Microsoft 365.
+:::
+
+To use Posit Connect as a board, you first need to authenticate. If you're using the RStudio IDE, you can do this via `Tools –> Global Options –> Publishing –> Connect`. Otherwise, you can manually set the Connect `server` address and supply an API `key`. Once Posit Connect has been authenticated, we can connect to it via the `board_connect()` function and save the connection as `my_board`. The output from this function in your environment should reflect **your** Connect server.
+
+```{r}
+my_board <- pins::board_connect()
+
+# Connecting to Posit Connect [version number] at [Connect URL]
+```
+
+## Pin R object to Posit Connect
+
+For this example, our object with be the mtcars dataset:
+
+```{r}
+# Assign mtcars datest to the "r_object" variable
+r_object <- mtcars
+```
+
+And now we can *pin* the r_object to our Posit Connect server. We'll name our pin "mtcars_dataset" and publish it as a csv file.
+
+```{r}
+# Pin to Posit Connect
+pins::pin_write(x = r_object,
+                board = my_board,
+                name = "mtcars_dataset",
+                type = "csv")
+
+# Writing to pin 'ryan/mtcars_dataset'
+```
+
+And here is the pin on the Posit Connect:
+
+![](/images/pin_mtcars.png){fig-align="center"}
+
+## Read Pin from Posit Connect
+
+Now that our R object has been pinned, we can easily read the pin into another R project, or share the pin with a colleague. In the image above, Posit Connect shows you how to read the pin using R:
+
+```{r}
+# Read the pin
+pins::pin_read(board = my_board,
+               name = "ryan/mtcars_dataset")
+```
+
+

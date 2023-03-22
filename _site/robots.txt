@@ -1,1 +1,1 @@
-Sitemap: https://quartopub.com/sites/ryjohnson09/stepping-stones/sitemap.xml
+Sitemap: /sitemap.xml

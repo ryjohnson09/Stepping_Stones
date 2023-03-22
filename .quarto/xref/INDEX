@@ -46,5 +46,8 @@
   },
   "docs/R/reticulate/proj-settings.qmd": {
     "proj-settings.html": "12827421"
+  },
+  "docs/R/pins/pin-object-R.qmd": {
+    "pin-object-R.html": "d77c58ab"
   }
 }
