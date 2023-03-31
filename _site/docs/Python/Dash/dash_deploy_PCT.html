@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Stepping Stones - Publishing Dash app to Posit Connect</title>
+<title>Stepping Stones - Publishing Dash Application using Posit Team</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Stepping Stones - Publishing Dash app to Posit Connect">
+<meta property="og:title" content="Stepping Stones - Publishing Dash Application using Posit Team">
 <meta property="og:description" content="In the video below, we’ll discuss how to:">
 <meta property="og:site-name" content="Stepping Stones">
 </head>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Publishing Dash app to Posit Connect</h1>
+      <h1 class="quarto-secondary-nav-title">Publishing Dash Application using Posit Team</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/Python/Dash/dash_deploy_PCT.html" class="sidebar-item-text sidebar-link active">Publish a Dash app to Posit Connect</a>
+  <a href="../../../docs/Python/Dash/dash_deploy_PCT.html" class="sidebar-item-text sidebar-link active">Publish a Dash app using Posit Team</a>
   </div>
 </li>
       </ul>
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Publishing Dash app to Posit Connect</h1>
+<h1 class="title d-none d-lg-block">Publishing Dash Application using Posit Team</h1>
 </div>
 
 
@@ -179,14 +179,14 @@ Note
 </div>
 <p>In the video below, we’ll discuss how to:</p>
 <ul>
-<li><p>Access VS Code withing Posit Workbench</p></li>
-<li><p>Create a new directory and initialize a virtual environment using <code>venv</code></p></li>
-<li><p>Pull in a Dash application from GitHub</p></li>
+<li><p>Access VS Code within Posit Workbench</p></li>
+<li><p>Install packages using Posit Package Manager</p></li>
 <li><p>Deploy Dash application to Posit Connect using the <code>rsconnect-python</code> package.</p></li>
 </ul>
+<p><img src="../../../images/PST-dash.jpg" class="img-fluid" width="497"></p>
 <p>You can find more instructions on deploying Dash applications on our <a href="https://docs.posit.co/connect/user/dash/">Posit Connect User Guide</a>.</p>
 <div style="position: relative; padding-bottom: 67.79661016949152%; height: 0;">
-<iframe src="https://www.loom.com/embed/373b4117a0d343469cef2cd89422b3d3" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+<iframe src="https://www.loom.com/embed/795a705dc53847c68dc26c4503d92815" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 </iframe>
 </div>
 
@@ -325,7 +325,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/quartopub\.com\/sites\/ryjohnson09\/stepping-stones/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

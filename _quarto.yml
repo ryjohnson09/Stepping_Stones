@@ -61,7 +61,7 @@ website:
         #       href: "docs/Python/pins/pin-dataset-Python.qmd"
         - section: "Dash"
           contents:
-            - text: "Publish a Dash app to Posit Connect"
+            - text: "Publish a Dash app using Posit Team"
               href: "docs/Python/Dash/dash_deploy_PCT.qmd"
 format:
   html:

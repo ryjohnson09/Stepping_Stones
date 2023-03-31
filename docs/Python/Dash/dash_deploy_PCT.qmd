@@ -1,5 +1,5 @@
 ---
-title: "Publishing Dash app to Posit Connect"
+title: "Publishing Dash Application using Posit Team"
 execute: 
   echo: true
   eval: false
@@ -11,14 +11,18 @@ execute:
 
 In the video below, we'll discuss how to:
 
--   Access VS Code withing Posit Workbench
+-   Access VS Code within Posit Workbench
 
--   Create a new directory and initialize a virtual environment using `venv`
-
--   Pull in a Dash application from GitHub
+-   Install packages using Posit Package Manager
 
 -   Deploy Dash application to Posit Connect using the `rsconnect-python` package.
 
+![](/images/PST-dash.jpg){width="497"}
+
 You can find more instructions on deploying Dash applications on our [Posit Connect User Guide](https://docs.posit.co/connect/user/dash/).
 
-<div style="position: relative; padding-bottom: 67.79661016949152%; height: 0;"><iframe src="https://www.loom.com/embed/373b4117a0d343469cef2cd89422b3d3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+::: {style="position: relative; padding-bottom: 67.79661016949152%; height: 0;"}
+<iframe src="https://www.loom.com/embed/795a705dc53847c68dc26c4503d92815" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+</iframe>
+:::
