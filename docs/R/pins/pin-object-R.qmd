@@ -17,7 +17,7 @@ In R, [`pins`](https://pins.rstudio.com/index.html) is an open source package th
 In this example, we'll pin an R dataset to Posit Connect.
 
 ::: {style="position: relative; padding-bottom: 67.79661016949152%; height: 0;"}
-<iframe src="https://www.loom.com/embed/51e79245e0f14750a35bd43e7a9d2742" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+<iframe src="https://www.loom.com/embed/26d26b34bbc143dcae8b7bfe441ad006" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 
 </iframe>
 :::
@@ -80,5 +80,3 @@ Now that our R object has been pinned, we can easily read the pin into another R
 pins::pin_read(board = my_board,
                name = "ryan/mtcars_dataset")
 ```
-
-
